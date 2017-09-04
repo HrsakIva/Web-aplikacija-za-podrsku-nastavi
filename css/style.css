@@ -1,0 +1,214 @@
+body{
+  background-color: #EEF3EC;
+}
+
+#obavijestiS{
+  position:absolute;
+  width: 60%;
+  height: auto;
+  top: 15%;
+  left: 15%;
+  vertical-align: middle;
+  border: 4px solid #ccc;
+  background-color: white;
+}
+#obavijestiP{
+  position:absolute;
+  width: 60%;
+  height: auto;
+  top: 15%;
+  left: 7%;
+  vertical-align: middle;
+  border: 4px solid #ccc;
+  background-color: white;
+}
+#upisani{
+  position:absolute;
+  width: 19%;
+  height: auto;
+  top: 15%;
+  left: 68%;
+  vertical-align: middle;
+  border: 4px solid #ccc;
+  background-color: white;
+}
+#element_profesor_prikaz{
+  text-transform: uppercase;
+}
+h2{
+  color: #4CAF50;
+}
+#zaglavljePI{
+  position: absolute;
+  width: 90%;
+  height: 10%;
+  font-size: 2.8vmin;
+  border: 4px solid #ccc;
+  background-color: white;
+}
+#zaglavljeSI{
+  position: absolute;
+  width: 90%;
+  height: 10%;
+  font-size: 2.8vmin;
+  border: 4px solid #ccc;
+  background-color: white;
+}
+h1{
+  max-width: 100%;
+  max-height: 100%;
+}
+#rezultati_predmeta{
+  border: 1px solid #ccc;
+}
+.rezultatiTD{
+    border: 1px solid #ccc;
+    color: #4CAF50;
+    text-align: center;
+}
+.pregledaj{
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+.popisPT{
+  width:100%;
+  height:100%;
+}
+.odjava{
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  top:13%;
+  border: 2px solid #ccc;
+  background-color: white;
+}
+.odjavaGumb{
+  width: 100%;
+  height: 100%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 2vmin;
+}
+.izbrisi{
+  background-color: red;
+  color: white;
+}
+#popisPP{
+  position:absolute;
+  width: 60%;
+  height: 50%;
+  top: 15%;
+  left: 15%;
+  vertical-align: middle;
+  border: 4px solid #ccc;
+  background-color: white;
+}
+#popisPS{
+  position:absolute;
+  width: 60%;
+  height: 50%;
+  top: 15%;
+  left: 15%;
+  border: 4px solid #ccc;
+  background-color: white;
+  vertical-align: middle;
+}
+#home{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  border: 4px solid #ccc;
+  background-color: white;
+}
+
+#homeSlika{
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  left: 5%;
+  top: 5%;
+
+}
+#imgNaslovna{
+  max-width: 100%;
+  max-height: 100%;
+}
+#homeNaslov{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 55%;
+  top: 15%;
+  font-size: 4vmin;
+  color: #4CAF50;
+}
+#gumbProfesor{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 55%;
+  top: 65%;
+  border: 1px solid #ccc;
+}
+#gumbStudent{
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 5%;
+  top: 65%;
+  border: 1px solid #ccc;
+}
+.pocetni{
+  width: 100%;
+  height: 100%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+    height: 25%;
+}
+
+img.avatar {
+    max-width: 100%;
+    border: 4px solid #ccc;
+}
+
+.container {
+    padding: 16px;
+    margin: 0 auto;
+    width: 50%;
+}
